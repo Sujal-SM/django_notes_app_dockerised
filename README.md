@@ -31,3 +31,19 @@ Install Nginx reverse proxy to make this application available
 
 nginx runs on port no. 80
 
+
+## Docker Commands
+
+### Build the image
+```bash
+docker build -t <your-username>/django_notes_app_docker:latest .
+
+docker run -d -p 8000:8000 <your-username>/django_notes_app_docker:latest
+
+docker push <your-username>/django_notes_app_docker:latest
+
+if you want to pull:
+
+docker pull <your-username>/django_notes_app_docker:latest
+``` 
+
