@@ -40,6 +40,8 @@ docker build -t <your-username>/django_notes_app_docker:latest .
 
 docker run -d -p 8000:8000 <your-username>/django_notes_app_docker:latest
 
+Push to docker hub:
+
 docker push <your-username>/django_notes_app_docker:latest
 
 if you want to pull:
